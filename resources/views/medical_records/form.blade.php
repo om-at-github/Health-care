@@ -195,13 +195,14 @@
                 </div>
             </div>
 
-            <!-- Success Message -->
-            <div class="px-6 pt-6">
+            <!-- Success Message (Only show when needed) -->
+            <!-- This would be conditionally displayed in a real application -->
+            <!-- <div class="px-6 pt-6">
                 <div class="success-message">
                     <i class="fas fa-check-circle"></i>
                     <span>Your medical record has been successfully saved!</span>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Form -->
             <form action="{{ route('medical-records.store') }}" method="POST" enctype="multipart/form-data" class="space-y-0">
